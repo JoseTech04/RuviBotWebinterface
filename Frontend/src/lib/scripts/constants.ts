@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://benevolent-pie-2c7894.netlify.app"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://ruvibackend.nucleuscloud.es"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://discord.gg/ng2pNH9JCH"
 
 export function get(path: string) {
